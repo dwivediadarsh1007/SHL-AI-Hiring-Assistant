@@ -4,7 +4,7 @@ Configuration management for the SHL Assessment Recommender.
 
 import os
 from functools import lru_cache
-from pydantic_settings import BaseSettings
+from pydantic import BaseSettings
 
 
 class Settings(BaseSettings):
