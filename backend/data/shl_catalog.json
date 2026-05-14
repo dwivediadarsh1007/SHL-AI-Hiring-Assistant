@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "total_entries": 8,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "version": "1.0.0",
+    "source": "shl_official_catalog"
+  },
+  "assessments": [
+    {
+      "name": "Situational Judgment Test (SJT)",
+      "url": "https://www.shl.com/en/solutions/assessments/situational-judgment-test/",
+      "description": "Measures behavioral competencies and judgment in realistic workplace scenarios. Assesses decision-making, problem-solving, and people skills.",
+      "test_type": "situational",
+      "skills": "decision-making, judgment, problem-solving, communication",
+      "duration": "20-30 minutes",
+      "keywords": ["behavioral", "judgment", "scenarios", "workplace"]
+    },
+    {
+      "name": "Numerical Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/numerical-reasoning/",
+      "description": "Assesses ability to work with numerical data and perform mathematical calculations. Used for roles requiring quantitative skills.",
+      "test_type": "cognitive",
+      "skills": "numerical reasoning, data analysis, mathematical skills",
+      "duration": "25-35 minutes",
+      "keywords": ["numerical", "quantitative", "data", "reasoning"]
+    },
+    {
+      "name": "Verbal Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/verbal-reasoning/",
+      "description": "Evaluates ability to comprehend written information and make logical conclusions. Essential for communication-intensive roles.",
+      "test_type": "cognitive",
+      "skills": "verbal reasoning, reading comprehension, logical thinking",
+      "duration": "20-30 minutes",
+      "keywords": ["verbal", "reading", "comprehension", "reasoning"]
+    },
+    {
+      "name": "Inductive Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/inductive-reasoning/",
+      "description": "Measures ability to identify patterns and draw conclusions from data. Important for analytical and technical roles.",
+      "test_type": "cognitive",
+      "skills": "pattern recognition, inductive reasoning, analytical thinking",
+      "duration": "20-25 minutes",
+      "keywords": ["patterns", "inductive", "analytical", "logic"]
+    },
+    {
+      "name": "OPQ32 Personality Questionnaire",
+      "url": "https://www.shl.com/en/solutions/assessments/opq32/",
+      "description": "Comprehensive personality assessment measuring 32 personality factors. Provides insights into work style, preferences, and potential.",
+      "test_type": "personality",
+      "skills": "personality traits, work style, behavioral preferences",
+      "duration": "45-60 minutes",
+      "keywords": ["personality", "behavior", "traits", "opq"]
+    },
+    {
+      "name": "Deductive Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/deductive-reasoning/",
+      "description": "Evaluates logical reasoning ability using syllogisms and formal logic. Particularly relevant for technical and managerial positions.",
+      "test_type": "cognitive",
+      "skills": "deductive reasoning, logical thinking, problem-solving",
+      "duration": "20-25 minutes",
+      "keywords": ["deductive", "logic", "reasoning", "syllogisms"]
+    },
+    {
+      "name": "PAPI-ER Personality Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/papi-er/",
+      "description": "Assessment of personality and work-related behaviors. Quick personality profiling tool for recruitment and team building.",
+      "test_type": "personality",
+      "skills": "personality assessment, behavioral profiling",
+      "duration": "15-20 minutes",
+      "keywords": ["personality", "behavior", "papi", "assessment"]
+    },
+    {
+      "name": "Verify - General Ability",
+      "url": "https://www.shl.com/en/solutions/assessments/verify/",
+      "description": "Adaptive assessment measuring cognitive abilities including reasoning, numerical, and verbal skills. Modern and mobile-optimized.",
+      "test_type": "ability",
+      "skills": "general ability, reasoning, numerical, verbal",
+      "duration": "20-25 minutes",
+      "keywords": ["ability", "adaptive", "verify", "general"]
+    }
+  ]
+}

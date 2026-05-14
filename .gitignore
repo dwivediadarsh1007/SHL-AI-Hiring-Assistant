@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Vector DB
+vectorstore/
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
