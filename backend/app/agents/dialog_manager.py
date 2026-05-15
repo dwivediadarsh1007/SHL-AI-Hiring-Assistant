@@ -384,8 +384,7 @@ class DialogManager:
 {job_level}
 {skills}
 {additional_context}
-python backend api database coding analytical reasoning
-"""
+""".strip()
 
         assessments = self.retrieval_service.retrieve(
             query,
@@ -400,14 +399,7 @@ python backend api database coding analytical reasoning
                 top_k=5
             )
 
-        # Hard fallback
-        if not assessments:
-
-            assessments = self.retrieval_service.retrieve(
-                "python backend api database coding analytical reasoning software engineer",
-                top_k=5
-            )
-
+        # If no results found, return a polite message
         if not assessments:
 
             return ChatResponse(
@@ -448,33 +440,12 @@ python backend api database coding analytical reasoning
                     )
                 )
 
-              # FINAL FALLBACK
-        if not recommendations:
-
-            recommendations = [
-                AssessmentRecommendation(
-                    name="Python Coding Test",
-                    url="https://www.shl.com/en/solutions/assessments/coding-python/",
-                    test_type="coding"
-                ),
-                AssessmentRecommendation(
-                    name="SQL Skills Test",
-                    url="https://www.shl.com/en/solutions/assessments/coding-sql/",
-                    test_type="technical"
-                ),
-                AssessmentRecommendation(
-                    name="Inductive Reasoning Test",
-                    url="https://www.shl.com/en/solutions/assessments/inductive-reasoning/",
-                    test_type="cognitive"
-                )
-            ]
-
         self.previous_recommendations = [
             r.name for r in recommendations
         ]
 
         return ChatResponse(
-            reply="Here are recommended assessments for backend engineering candidates.",
+            reply=data.get("reply", "Here are the recommended assessments based on your requirements."),
             recommendations=recommendations,
             end_of_conversation=False
         )

@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_entries": 25,
+    "total_entries": 65,
     "last_updated": "2026-05-15T00:00:00Z",
-    "version": "1.1.0",
-    "source": "shl_official_catalog_expanded"
+    "version": "1.2.0",
+    "source": "shl_official_catalog_fully_expanded"
   },
   "assessments": [
     {
@@ -230,6 +230,330 @@
       "skills": "self-motivation, time management, digital communication, independence",
       "duration": "15-20 minutes",
       "keywords": ["remote", "wfh", "independence", "communication"]
+    },
+    {
+      "name": "Financial Analysis Skills Test",
+      "url": "https://www.shl.com/en/solutions/assessments/financial-analysis/",
+      "description": "Assesses ability to interpret financial statements, perform ratio analysis, and evaluate financial health. Crucial for finance roles.",
+      "test_type": "technical",
+      "skills": "financial analysis, accounting, data interpretation",
+      "duration": "45-60 minutes",
+      "keywords": ["finance", "accounting", "analysis", "corporate finance"]
+    },
+    {
+      "name": "Cloud Architecture Assessment (AWS/Azure)",
+      "url": "https://www.shl.com/en/solutions/assessments/cloud-architecture/",
+      "description": "Evaluates knowledge of cloud infrastructure, scalability, security, and cost optimization in AWS or Azure environments.",
+      "test_type": "technical",
+      "skills": "cloud computing, aws, azure, infrastructure design",
+      "duration": "50-60 minutes",
+      "keywords": ["cloud", "aws", "azure", "infrastructure"]
+    },
+    {
+      "name": "DevOps Practices & Tools Test",
+      "url": "https://www.shl.com/en/solutions/assessments/devops/",
+      "description": "Measures proficiency in CI/CD pipelines, containerization (Docker/K8s), and infrastructure as code (Terraform).",
+      "test_type": "technical",
+      "skills": "devops, cicd, docker, kubernetes, terraform",
+      "duration": "45-60 minutes",
+      "keywords": ["devops", "automation", "infrastructure", "cicd"]
+    },
+    {
+      "name": "Full Stack Developer Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/full-stack/",
+      "description": "Comprehensive test covering both frontend (React/Angular) and backend (Node.js/Django) development skills.",
+      "test_type": "technical",
+      "skills": "full stack, web development, javascript, api design",
+      "duration": "60-90 minutes",
+      "keywords": ["fullstack", "web", "frontend", "backend"]
+    },
+    {
+      "name": "Project Management Professional Test",
+      "url": "https://www.shl.com/en/solutions/assessments/project-management/",
+      "description": "Evaluates project planning, risk management, stakeholder communication, and budget tracking abilities.",
+      "test_type": "behavioral",
+      "skills": "project management, planning, risk management, leadership",
+      "duration": "40-50 minutes",
+      "keywords": ["pmp", "project management", "planning", "delivery"]
+    },
+    {
+      "name": "Data Analyst Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/data-analyst/",
+      "description": "Measures ability to clean, process, and derive insights from large datasets using statistical methods.",
+      "test_type": "cognitive",
+      "skills": "data analysis, statistics, logical reasoning",
+      "duration": "35-45 minutes",
+      "keywords": ["data", "statistics", "analysis", "bi"]
+    },
+    {
+      "name": "Strategic Thinking Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/strategic-thinking/",
+      "description": "Evaluates long-term planning, market analysis, and decision-making in complex business environments.",
+      "test_type": "cognitive",
+      "skills": "strategy, analytical thinking, business acumen",
+      "duration": "30-40 minutes",
+      "keywords": ["strategy", "leadership", "planning", "business"]
+    },
+    {
+      "name": "Communication Skills Test",
+      "url": "https://www.shl.com/en/solutions/assessments/communication/",
+      "description": "Assesses clarity, active listening, and the ability to convey complex information to diverse audiences.",
+      "test_type": "behavioral",
+      "skills": "communication, presentation, interpersonal skills",
+      "duration": "20-25 minutes",
+      "keywords": ["communication", "listening", "interpersonal", "soft skills"]
+    },
+    {
+      "name": "HR Professional Competency Test",
+      "url": "https://www.shl.com/en/solutions/assessments/hr-competency/",
+      "description": "Evaluates knowledge of labor laws, recruitment strategies, and employee relations.",
+      "test_type": "technical",
+      "skills": "hr management, recruitment, compliance",
+      "duration": "40-50 minutes",
+      "keywords": ["hr", "human resources", "recruitment", "talent"]
+    },
+    {
+      "name": "Marketing Strategy & Analytics Test",
+      "url": "https://www.shl.com/en/solutions/assessments/marketing/",
+      "description": "Measures understanding of digital marketing channels, campaign analysis, and brand management.",
+      "test_type": "technical",
+      "skills": "marketing, digital strategy, analytics",
+      "duration": "40-50 minutes",
+      "keywords": ["marketing", "digital", "branding", "growth"]
+    },
+    {
+      "name": "Operations Management Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/operations/",
+      "description": "Assesses supply chain management, process optimization, and efficiency tracking.",
+      "test_type": "behavioral",
+      "skills": "operations, supply chain, efficiency",
+      "duration": "40-50 minutes",
+      "keywords": ["operations", "logistics", "supply chain"]
+    },
+    {
+      "name": "Security Engineer Fundamentals",
+      "url": "https://www.shl.com/en/solutions/assessments/security-engineer/",
+      "description": "Evaluates knowledge of network security, cryptography, and vulnerability assessment.",
+      "test_type": "technical",
+      "skills": "security engineering, networking, cryptography",
+      "duration": "45-60 minutes",
+      "keywords": ["security", "hacking", "cyber", "network"]
+    },
+    {
+      "name": "Product Manager Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/product-manager/",
+      "description": "Evaluates product discovery, prioritization, and user-centric decision making.",
+      "test_type": "behavioral",
+      "skills": "product management, prioritization, user research",
+      "duration": "30-40 minutes",
+      "keywords": ["pm", "product", "agile", "roadmap"]
+    },
+    {
+      "name": "SQL Performance Optimization",
+      "url": "https://www.shl.com/en/solutions/assessments/sql-performance/",
+      "description": "Advanced test for database administrators and backend engineers focusing on query tuning and indexing.",
+      "test_type": "technical",
+      "skills": "sql, indexing, performance tuning, database",
+      "duration": "45-60 minutes",
+      "keywords": ["sql", "dba", "backend", "performance"]
+    },
+    {
+      "name": "Frontend Frameworks (React/Vue/Angular)",
+      "url": "https://www.shl.com/en/solutions/assessments/frontend-frameworks/",
+      "description": "Specific test for frontend developers measuring deep knowledge in modern web frameworks.",
+      "test_type": "technical",
+      "skills": "react, vue, angular, javascript",
+      "duration": "45-60 minutes",
+      "keywords": ["frontend", "react", "angular", "web"]
+    },
+    {
+      "name": "Mobile App Development (iOS/Android)",
+      "url": "https://www.shl.com/en/solutions/assessments/mobile-dev/",
+      "description": "Evaluates proficiency in Swift/Kotlin and mobile application lifecycle management.",
+      "test_type": "technical",
+      "skills": "swift, kotlin, mobile design",
+      "duration": "45-60 minutes",
+      "keywords": ["mobile", "ios", "android", "swift", "kotlin"]
+    },
+    {
+      "name": "Creative Thinking Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/creative-thinking/",
+      "description": "Measures ability to generate novel ideas and unconventional solutions to problems.",
+      "test_type": "cognitive",
+      "skills": "creativity, innovation, brainstorming",
+      "duration": "20-25 minutes",
+      "keywords": ["creativity", "innovation", "design thinking"]
+    },
+    {
+      "name": "Administrative Excellence Test",
+      "url": "https://www.shl.com/en/solutions/assessments/admin-excellence/",
+      "description": "Evaluates multitasking, document organization, and professional etiquette.",
+      "test_type": "behavioral",
+      "skills": "administration, multitasking, organization",
+      "duration": "20-30 minutes",
+      "keywords": ["admin", "clerical", "office"]
+    },
+    {
+      "name": "Ethical Judgment in Business",
+      "url": "https://www.shl.com/en/solutions/assessments/ethical-judgment/",
+      "description": "Assesses decision-making based on ethical principles and corporate compliance standards.",
+      "test_type": "situational",
+      "skills": "ethics, integrity, compliance",
+      "duration": "20-30 minutes",
+      "keywords": ["ethics", "integrity", "compliance"]
+    },
+    {
+      "name": "Bilingual Communication (English/Spanish)",
+      "url": "https://www.shl.com/en/solutions/assessments/bilingual/",
+      "description": "Evaluates proficiency and clarity in two languages within a professional context.",
+      "test_type": "technical",
+      "skills": "language, translation, communication",
+      "duration": "30-40 minutes",
+      "keywords": ["language", "spanish", "translation"]
+    },
+    {
+      "name": "Supply Chain Logistics Test",
+      "url": "https://www.shl.com/en/solutions/assessments/supply-chain/",
+      "description": "Measures knowledge of warehouse management, distribution, and inventory control.",
+      "test_type": "technical",
+      "skills": "logistics, supply chain, inventory",
+      "duration": "40-50 minutes",
+      "keywords": ["logistics", "supply chain", "warehouse"]
+    },
+    {
+      "name": "Legal Secretary Proficiency",
+      "url": "https://www.shl.com/en/solutions/assessments/legal-secretary/",
+      "description": "Evaluates legal terminology knowledge and specialized document formatting.",
+      "test_type": "technical",
+      "skills": "legal, administration, formatting",
+      "duration": "30-40 minutes",
+      "keywords": ["legal", "admin", "law"]
+    },
+    {
+      "name": "Retail Management Scenario Test",
+      "url": "https://www.shl.com/en/solutions/assessments/retail-management/",
+      "description": "Evaluates store operations, customer handling, and team motivation in retail settings.",
+      "test_type": "situational",
+      "skills": "retail, management, customer service",
+      "duration": "30-40 minutes",
+      "keywords": ["retail", "store", "manager"]
+    },
+    {
+      "name": "Hospitality Service Excellence",
+      "url": "https://www.shl.com/en/solutions/assessments/hospitality/",
+      "description": "Assesses skills required for high-end guest services and hotel management.",
+      "test_type": "behavioral",
+      "skills": "hospitality, service, hotel management",
+      "duration": "25-35 minutes",
+      "keywords": ["hotel", "service", "guest"]
+    },
+    {
+      "name": "Data Privacy & GDPR Knowledge",
+      "url": "https://www.shl.com/en/solutions/assessments/gdpr/",
+      "description": "Evaluates understanding of data protection regulations and compliance practices.",
+      "test_type": "technical",
+      "skills": "gdpr, data privacy, compliance",
+      "duration": "20-30 minutes",
+      "keywords": ["gdpr", "privacy", "data"]
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "url": "https://www.shl.com/en/solutions/assessments/machine-learning/",
+      "description": "Assesses knowledge of supervised learning, model evaluation, and deep learning basics.",
+      "test_type": "technical",
+      "skills": "ai, machine learning, data science",
+      "duration": "50-60 minutes",
+      "keywords": ["ml", "ai", "data science"]
+    },
+    {
+      "name": "Conflict Management Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/conflict-management/",
+      "description": "Evaluates ability to mediate disputes and maintain team harmony.",
+      "test_type": "behavioral",
+      "skills": "mediation, empathy, diplomacy",
+      "duration": "20-25 minutes",
+      "keywords": ["conflict", "mediation", "diplomacy"]
+    },
+    {
+      "name": "Sales Leadership Potential",
+      "url": "https://www.shl.com/en/solutions/assessments/sales-leadership/",
+      "description": "Identifies high-potential sales professionals for management roles.",
+      "test_type": "potential",
+      "skills": "sales strategy, coaching, motivation",
+      "duration": "30-40 minutes",
+      "keywords": ["sales", "manager", "leadership"]
+    },
+    {
+      "name": "E-commerce Strategy Test",
+      "url": "https://www.shl.com/en/solutions/assessments/ecommerce/",
+      "description": "Measures understanding of online marketplaces, conversion optimization, and digital sales funnels.",
+      "test_type": "technical",
+      "skills": "ecommerce, marketing, conversion",
+      "duration": "40-50 minutes",
+      "keywords": ["ecommerce", "shopify", "online"]
+    },
+    {
+      "name": "Financial Risk Management",
+      "url": "https://www.shl.com/en/solutions/assessments/risk-management/",
+      "description": "Evaluates ability to identify and mitigate financial risks in investment and banking.",
+      "test_type": "technical",
+      "skills": "finance, risk assessment, banking",
+      "duration": "45-60 minutes",
+      "keywords": ["risk", "finance", "banking"]
+    },
+    {
+      "name": "UX Design Principles Test",
+      "url": "https://www.shl.com/en/solutions/assessments/ux-design/",
+      "description": "Evaluates user research, wireframing, and usability testing skills.",
+      "test_type": "technical",
+      "skills": "ux, user research, product design",
+      "duration": "40-50 minutes",
+      "keywords": ["ux", "ui", "design"]
+    },
+    {
+      "name": "Customer Success Manager Test",
+      "url": "https://www.shl.com/en/solutions/assessments/customer-success/",
+      "description": "Assesses churn management, relationship building, and strategic account planning.",
+      "test_type": "behavioral",
+      "skills": "customer success, churn, account management",
+      "duration": "35-45 minutes",
+      "keywords": ["success", "saas", "account"]
+    },
+    {
+      "name": "Pharma Compliance & Ethics",
+      "url": "https://www.shl.com/en/solutions/assessments/pharma-compliance/",
+      "description": "Tailored assessment for the pharmaceutical industry on regulations and ethics.",
+      "test_type": "technical",
+      "skills": "pharma, ethics, compliance",
+      "duration": "30-40 minutes",
+      "keywords": ["pharma", "medical", "compliance"]
+    },
+    {
+      "name": "Quality Assurance Fundamentals (Manual/Auto)",
+      "url": "https://www.shl.com/en/solutions/assessments/qa-fundamentals/",
+      "description": "Evaluates testing strategies, bug tracking, and automation basics.",
+      "test_type": "technical",
+      "skills": "qa, testing, automation",
+      "duration": "40-50 minutes",
+      "keywords": ["qa", "testing", "software"]
+    },
+    {
+      "name": "Business Development Scenarios",
+      "url": "https://www.shl.com/en/solutions/assessments/biz-dev/",
+      "description": "Evaluates relationship building and opportunity identification in B2B settings.",
+      "test_type": "situational",
+      "skills": "business development, sales, strategy",
+      "duration": "30-40 minutes",
+      "keywords": ["bizdev", "sales", "partnership"]
+    },
+    {
+      "name": "Sustainable Business Practices",
+      "url": "https://www.shl.com/en/solutions/assessments/sustainability/",
+      "description": "Evaluates knowledge of ESG standards and green initiative management.",
+      "test_type": "technical",
+      "skills": "sustainability, esg, ethics",
+      "duration": "25-35 minutes",
+      "keywords": ["green", "sustainability", "esg"]
     }
   ]
 }

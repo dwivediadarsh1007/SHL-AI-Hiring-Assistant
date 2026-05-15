@@ -1,7 +1,26 @@
 # SHL Assessment Recommender: Approach & Architecture
 
 ## 1. Architecture Overview
-The SHL Assessment Recommender is designed as a **Stateless Conversational AI** utilizing a **Retrieval-Augmented Generation (RAG)** pipeline. The system is built on:
+The SHL Assessment Recommender is designed as a **Stateless Conversational AI** utilizing a **Retrieval-Augmented Generation (RAG)** pipeline.
+
+### System Architecture
+```mermaid
+graph TD
+    User([User]) --> API[FastAPI Endpoint /chat]
+    API --> DM[Dialog Manager]
+    DM --> Intent[Intent Detection - Gemini]
+    Intent --> |Recommend/Refine| Retrieval[Retrieval Service]
+    Retrieval --> ES[Embedding Service - Gemini API]
+    Retrieval --> FAISS[FAISS Vector Search]
+    DM --> Prompt[Prompt Assembly]
+    Prompt --> Gemini[Gemini LLM - 1.5 Flash]
+    Gemini --> Guards[Guardrail Manager]
+    Guards --> Hallucination[Hallucination Guard]
+    Guards --> Injection[Injection Guard]
+    Hallucination --> Response([Final Response])
+```
+
+The system is built on:
 - **Backend Framework:** FastAPI (provides asynchronous, high-performance endpoints with strictly enforced Pydantic schemas).
 - **Conversational Engine:** Google Gemini (`gemini-2.5-flash`) orchestrated by a custom `DialogManager` that handles intent routing, clarification, and conversation state management.
 - **Retrieval System:** FAISS (Facebook AI Similarity Search) combined with Gemini Embeddings (`models/text-embedding-004`) for high-speed semantic search.
