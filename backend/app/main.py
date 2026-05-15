@@ -40,16 +40,14 @@ async def lifespan(app: FastAPI):
         logger.info("✓ Dialog manager initialized")
         
         # Load or build FAISS index
-        # if dialog_manager.retrieval_service.load_index():
-        #     logger.info("✓ Loaded existing FAISS index")
-        # else:
-        #     logger.warning("No existing FAISS index found, building from catalog...")
-        #     if dialog_manager.retrieval_service.build_index(dialog_manager.catalog_entries):
-        #         logger.info("✓ Built and saved FAISS index")
-        #     else:
-        #         logger.warning("⚠ Failed to build FAISS index (retrieval may be limited)")
-
-        logger.info("Skipping FAISS index build for stable deployment")
+        if dialog_manager.retrieval_service.load_index():
+            logger.info("✓ Loaded existing FAISS index")
+        else:
+            logger.warning("No existing FAISS index found, building from catalog...")
+            if dialog_manager.retrieval_service.build_index(dialog_manager.catalog_entries):
+                logger.info("✓ Built and saved FAISS index")
+            else:
+                logger.warning("⚠ Failed to build FAISS index (retrieval may be limited)")
     
     except Exception as e:
         logger.error(f"Failed to initialize: {e}")

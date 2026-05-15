@@ -21,8 +21,8 @@ class Settings(BaseSettings):
     gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
     
     # Embedding Configuration
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
-    embedding_dimension: int = 384  # Dimension of all-MiniLM-L6-v2
+    embedding_model: str = "models/embedding-001"
+    embedding_dimension: int = 768  # Dimension of Gemini embeddings
     
     # Retrieval Configuration
     faiss_index_path: str = "vectorstore/shl_index.faiss"

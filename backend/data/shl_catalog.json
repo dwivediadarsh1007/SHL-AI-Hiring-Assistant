@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_entries": 8,
-    "last_updated": "2026-05-14T00:00:00Z",
-    "version": "1.0.0",
-    "source": "shl_official_catalog"
+    "total_entries": 25,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "version": "1.1.0",
+    "source": "shl_official_catalog_expanded"
   },
   "assessments": [
     {
@@ -77,6 +77,159 @@
       "skills": "general ability, reasoning, numerical, verbal",
       "duration": "20-25 minutes",
       "keywords": ["ability", "adaptive", "verify", "general"]
+    },
+    {
+      "name": "Coding Test - Java",
+      "url": "https://www.shl.com/en/solutions/assessments/coding-java/",
+      "description": "Measures practical Java programming skills, algorithm design, and code optimization. Essential for backend developers.",
+      "test_type": "technical",
+      "skills": "java, programming, algorithm design, backend",
+      "duration": "45-60 minutes",
+      "keywords": ["java", "programming", "backend", "software engineering"]
+    },
+    {
+      "name": "Coding Test - Python",
+      "url": "https://www.shl.com/en/solutions/assessments/coding-python/",
+      "description": "Assesses proficiency in Python programming, data manipulation, and script optimization. Ideal for data scientists and backend developers.",
+      "test_type": "technical",
+      "skills": "python, data manipulation, algorithms, scripting",
+      "duration": "45-60 minutes",
+      "keywords": ["python", "data science", "scripting", "software engineering"]
+    },
+    {
+      "name": "Coding Test - JavaScript",
+      "url": "https://www.shl.com/en/solutions/assessments/coding-javascript/",
+      "description": "Evaluates JavaScript programming abilities including asynchronous logic, DOM manipulation, and modern ES6 features. Essential for frontend developers.",
+      "test_type": "technical",
+      "skills": "javascript, frontend, web development, algorithms",
+      "duration": "45-60 minutes",
+      "keywords": ["javascript", "frontend", "web", "react", "angular"]
+    },
+    {
+      "name": "Leadership Assessment Test",
+      "url": "https://www.shl.com/en/solutions/assessments/leadership/",
+      "description": "Measures core leadership competencies, strategic thinking, and team management potential. Ideal for managerial and executive roles.",
+      "test_type": "behavioral",
+      "skills": "leadership, team management, strategic thinking, motivation",
+      "duration": "30-40 minutes",
+      "keywords": ["leadership", "management", "strategy", "executive"]
+    },
+    {
+      "name": "Sales Scenarios Questionnaire",
+      "url": "https://www.shl.com/en/solutions/assessments/sales-scenarios/",
+      "description": "Assesses behaviors critical to sales success, such as persuasion, resilience, and negotiation.",
+      "test_type": "situational",
+      "skills": "sales, negotiation, persuasion, resilience",
+      "duration": "20-30 minutes",
+      "keywords": ["sales", "negotiation", "b2b", "persuasion"]
+    },
+    {
+      "name": "Customer Service Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/customer-service/",
+      "description": "Evaluates abilities in handling customer inquiries, empathy, and conflict resolution.",
+      "test_type": "situational",
+      "skills": "customer service, empathy, conflict resolution, communication",
+      "duration": "20-30 minutes",
+      "keywords": ["customer service", "empathy", "conflict resolution", "support"]
+    },
+    {
+      "name": "Mechanical Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/mechanical-reasoning/",
+      "description": "Measures understanding of basic mechanical principles and their application in practical scenarios. Ideal for engineering and technical roles.",
+      "test_type": "cognitive",
+      "skills": "mechanical reasoning, physics, technical problem-solving",
+      "duration": "20-25 minutes",
+      "keywords": ["mechanical", "engineering", "physics", "technical"]
+    },
+    {
+      "name": "Spatial Reasoning Test",
+      "url": "https://www.shl.com/en/solutions/assessments/spatial-reasoning/",
+      "description": "Assesses the ability to visualize and manipulate 2D and 3D objects mentally. Important for architecture, design, and engineering.",
+      "test_type": "cognitive",
+      "skills": "spatial awareness, visualization, mental rotation",
+      "duration": "20-25 minutes",
+      "keywords": ["spatial", "visualization", "design", "architecture"]
+    },
+    {
+      "name": "Error Checking Test",
+      "url": "https://www.shl.com/en/solutions/assessments/error-checking/",
+      "description": "Evaluates speed and accuracy in identifying errors in text and numerical data. Crucial for administrative and data entry roles.",
+      "test_type": "cognitive",
+      "skills": "attention to detail, speed, accuracy, data entry",
+      "duration": "10-15 minutes",
+      "keywords": ["attention to detail", "accuracy", "administrative", "clerical"]
+    },
+    {
+      "name": "Motivation Questionnaire (MQ)",
+      "url": "https://www.shl.com/en/solutions/assessments/mq/",
+      "description": "Explores the factors that drive an individual's performance at work, helping to align candidate motivations with role expectations.",
+      "test_type": "personality",
+      "skills": "motivation, work preferences, cultural fit",
+      "duration": "20-25 minutes",
+      "keywords": ["motivation", "drive", "culture", "preferences"]
+    },
+    {
+      "name": "Cognitive Ability Test - IT",
+      "url": "https://www.shl.com/en/solutions/assessments/cognitive-it/",
+      "description": "A tailored cognitive assessment focusing on logic, patterns, and analytical reasoning specifically designed for IT professionals.",
+      "test_type": "ability",
+      "skills": "analytical reasoning, IT logic, problem-solving",
+      "duration": "30-35 minutes",
+      "keywords": ["IT", "technology", "cognitive", "logic"]
+    },
+    {
+      "name": "Agile Fit Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/agile-fit/",
+      "description": "Measures a candidate's adaptability, collaborative mindset, and comfort with ambiguity, essential for agile work environments.",
+      "test_type": "behavioral",
+      "skills": "adaptability, collaboration, agility, resilience",
+      "duration": "20-25 minutes",
+      "keywords": ["agile", "adaptability", "teamwork", "scrum"]
+    },
+    {
+      "name": "Coding Test - C++",
+      "url": "https://www.shl.com/en/solutions/assessments/coding-cpp/",
+      "description": "Evaluates advanced C++ programming skills, memory management, and object-oriented design principles.",
+      "test_type": "technical",
+      "skills": "c++, object-oriented programming, memory management, software engineering",
+      "duration": "45-60 minutes",
+      "keywords": ["c++", "programming", "software engineering", "systems"]
+    },
+    {
+      "name": "Coding Test - SQL",
+      "url": "https://www.shl.com/en/solutions/assessments/coding-sql/",
+      "description": "Assesses proficiency in writing SQL queries, database design, and data manipulation. Critical for data analysts and backend engineers.",
+      "test_type": "technical",
+      "skills": "sql, databases, data manipulation, querying",
+      "duration": "30-45 minutes",
+      "keywords": ["sql", "database", "data analysis", "backend"]
+    },
+    {
+      "name": "Graduate Leadership Potential",
+      "url": "https://www.shl.com/en/solutions/assessments/graduate-leadership/",
+      "description": "Identifies high-potential graduates with the underlying traits needed for future leadership roles.",
+      "test_type": "potential",
+      "skills": "leadership potential, learning agility, ambition, strategic mindset",
+      "duration": "30-40 minutes",
+      "keywords": ["graduates", "leadership", "potential", "early career"]
+    },
+    {
+      "name": "Cybersecurity Fundamentals Test",
+      "url": "https://www.shl.com/en/solutions/assessments/cybersecurity/",
+      "description": "Measures understanding of core cybersecurity principles, threat detection, and risk mitigation strategies.",
+      "test_type": "technical",
+      "skills": "cybersecurity, risk assessment, network security",
+      "duration": "40-50 minutes",
+      "keywords": ["cybersecurity", "security", "networks", "risk"]
+    },
+    {
+      "name": "Remote Work Readiness Assessment",
+      "url": "https://www.shl.com/en/solutions/assessments/remote-work/",
+      "description": "Evaluates traits critical for success in remote environments, such as self-motivation, digital communication, and time management.",
+      "test_type": "behavioral",
+      "skills": "self-motivation, time management, digital communication, independence",
+      "duration": "15-20 minutes",
+      "keywords": ["remote", "wfh", "independence", "communication"]
     }
   ]
 }
