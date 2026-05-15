@@ -57,7 +57,7 @@ class EmbeddingService:
             text = text.strip()[:10000]
 
             response = genai.embed_content(
-               model="embedding-001",
+               model="models/embedding-001",
                 content=text,
                 task_type="retrieval_document"
             )
