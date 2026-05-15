@@ -178,7 +178,7 @@ class DialogManager:
 
             else:
 
-                return self._handle_clarify(
+                return self._handle_recommend(
                     user_input,
                     intent,
                     messages
