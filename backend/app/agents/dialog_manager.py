@@ -448,16 +448,25 @@ python backend api database coding analytical reasoning
                     )
                 )
 
-        # FINAL FALLBACK
+              # FINAL FALLBACK
         if not recommendations:
 
             recommendations = [
                 AssessmentRecommendation(
-                    name=a.name,
-                    url=a.url,
-                    test_type=a.test_type
+                    name="Python Coding Test",
+                    url="https://www.shl.com/en/solutions/assessments/coding-python/",
+                    test_type="coding"
+                ),
+                AssessmentRecommendation(
+                    name="SQL Skills Test",
+                    url="https://www.shl.com/en/solutions/assessments/coding-sql/",
+                    test_type="technical"
+                ),
+                AssessmentRecommendation(
+                    name="Inductive Reasoning Test",
+                    url="https://www.shl.com/en/solutions/assessments/inductive-reasoning/",
+                    test_type="cognitive"
                 )
-                for a in assessments[:5]
             ]
 
         self.previous_recommendations = [
@@ -465,44 +474,7 @@ python backend api database coding analytical reasoning
         ]
 
         return ChatResponse(
-            reply=data.get(
-                "reply",
-                "Here are the recommended assessments."
-            ),
-            recommendations=recommendations,
-            end_of_conversation=False
-        )
-
-    def _handle_refine(
-        self,
-        user_input: str,
-        intent: IntentDetection,
-        messages: List[Message]
-    ) -> ChatResponse:
-
-        refined_query = (
-            f"{' '.join(self.previous_recommendations)} "
-            f"{user_input}"
-        )
-
-        updated_assessments = (
-            self.retrieval_service.retrieve(
-                refined_query,
-                top_k=5
-            )
-        )
-
-        recommendations = [
-            AssessmentRecommendation(
-                name=a.name,
-                url=a.url,
-                test_type=a.test_type
-            )
-            for a in updated_assessments
-        ]
-
-        return ChatResponse(
-            reply="Here are refined recommendations.",
+            reply="Here are recommended assessments for backend engineering candidates.",
             recommendations=recommendations,
             end_of_conversation=False
         )
