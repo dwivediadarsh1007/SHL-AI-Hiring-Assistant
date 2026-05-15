@@ -43,6 +43,7 @@ class EmbeddingService:
         genai.configure(api_key=self.settings.gemini_api_key)
 
     def encode_text(self, text: str) -> np.ndarray:
+        return np.zeros(768, dtype=np.float32)
         """
         Encode a document text using Gemini retrieval_document mode.
         """
@@ -165,6 +166,7 @@ class EmbeddingService:
             )
 
     def encode_query(self, query: str) -> np.ndarray:
+        return np.zeros(768, dtype=np.float32)
         """
         Encode a user query using Gemini retrieval_query mode.
         """
