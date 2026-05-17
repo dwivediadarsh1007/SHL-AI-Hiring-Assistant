@@ -78,6 +78,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def root():
+    return {
+        "message": "SHL AI Hiring Assistant API is running successfully",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
 
 @app.get(
     "/health",
